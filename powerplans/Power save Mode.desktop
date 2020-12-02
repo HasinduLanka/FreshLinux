@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=sudo ~/power.plan.min.sh 
+GenericName[en_US]=
+GenericName=
+Icon=preferences-system-power-management
+MimeType=
+Name[en_US]=Power save Mode
+Name=Power save Mode
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=

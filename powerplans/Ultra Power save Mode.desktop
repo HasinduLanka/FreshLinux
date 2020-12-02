@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=sudo ~/power.plan.ultrasave.sh 
+GenericName[en_US]=
+GenericName=
+Icon=utilities-energy-monitor
+MimeType=
+Name[en_US]=Ultra Power save Mode
+Name=Ultra Power save Mode
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=
