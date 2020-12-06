@@ -10,5 +10,5 @@ cp ./powerplans/Ultra\ Power\ save\ Mode.desktop ~/Desktop/
 
 
 sudo apt install tlp tlp-rdw 
-sudo cp ./powerplans/tlp.backup /etc/
+sudo cp -r ./powerplans/tlp.backup /etc/
 
