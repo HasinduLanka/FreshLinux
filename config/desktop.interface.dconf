@@ -1,0 +1,7 @@
+[/]
+clock-show-seconds=false
+clock-show-weekday=false
+enable-hot-corners=false
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Yaru-dark'
+show-battery-percentage=true
