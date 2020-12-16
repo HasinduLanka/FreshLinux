@@ -29,7 +29,6 @@ dconf load /org/gnome/gedit/preferences/editor/ < ./config/gedit.dconf
 dconf load /org/gnome/settings-daemon/plugins/power/ < ./config/power.dconf 
 
 
-mkdir sand
 cd sand
 git clone https://github.com/bulletmark/libinput-gestures.git
 cd libinput-gestures
