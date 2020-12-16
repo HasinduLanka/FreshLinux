@@ -19,6 +19,7 @@ cp ./fs/wallpapers/wallpaper.png ~/Pictures/
 
 
 
+mkdir sand
 cd sand
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
