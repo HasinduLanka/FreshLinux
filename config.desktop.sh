@@ -9,14 +9,30 @@ sudo apt -y install wmctrl xdotool libinput-tools   chrome-gnome-shell gnome-twe
 sudo cp ./fs/wallpapers/wallpaper-256.png /boot/grub/
 sudo update-grub2
 
-cp ./fs/wallpapers/wallpaper.png ~/Pictures/
+# cp ./fs/wallpapers/wallpaper.png ~/Pictures/
+
+chmod +x ./powerplans/*.sh
+
+rsync -a ./fs/home/ ~/
+sudo rsync -a ./fs/home/Desktop/ /usr/share/applications/
+
+sudo cp ./config/logind.conf /etc/systemd/logind.conf 
+
+# cp ./powerplans/power.plan.* ~/
+
+# cp ./powerplans/Performance\ Mode.desktop ~/Desktop/ 
+# cp ./powerplans/Power\ save\ Mode.desktop ~/Desktop/ 
+# cp ./powerplans/Ultra\ Power\ save\ Mode.desktop ~/Desktop/ 
+
+
+sudo apt install tlp tlp-rdw 
+sudo cp -r ./powerplans/tlp.backup /etc/
+
 
 
 # Made using    dconf dump /org/gnome/shell/extensions/ > ./config/extension-settings.dconf 
 dconf load /org/gnome/shell/extensions/ < ./config/extension-settings.dconf
 
-
-rsync -a ./fs/home/ ~/
 
 
 dconf load /org/gnome/shell/extensions/ < ./config/extension-settings.dconf 
@@ -34,6 +50,8 @@ dconf load /org/gnome/desktop/wm/preferences/ < ./config/wm.dconf
 dconf load /org/gnome/gedit/preferences/editor/ < ./config/gedit.dconf 
 
 dconf load /org/gnome/settings-daemon/plugins/power/ < ./config/power.dconf 
+
+
 
 
 mkdir sand
