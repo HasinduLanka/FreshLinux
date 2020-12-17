@@ -12,6 +12,10 @@ sudo apt install --assume-yes fdisk g++ nano screen gedit git wget curl ark reso
 # sudo apt update
 # sudo apt install --assume-yes python3.8 python3-pip libssl-dev libffi-dev python3-dev 
 
+sudo bash -c 'echo -e "\n\nnameserver 8.8.8.8\nnameserver 8.8.4.4\n\n" > /etc/resolvconf/resolv.conf.d/head'
+
+sudo systemctl enable resolvconf.service
+sudo systemctl start resolvconf.service
 
 git config pull.rebase true 
 echo configure git like    git config --global user.name "NAME" user.email "ME@MAIL.COM"
