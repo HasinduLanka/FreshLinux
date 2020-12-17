@@ -13,6 +13,8 @@ sudo snap install dotnet-sdk --classic --channel=5.0
 sudo snap alias dotnet-sdk.dotnet dotnet
 
 sudo snap install vokoscreen-ng 
+sudo snap install woe-usb --edge 
+sudo snap install bombsquad 
 
 
 mkdir sand
