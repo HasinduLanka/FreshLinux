@@ -18,3 +18,7 @@ sudo swapon ./swapfile
 
 echo After Increasing 
 free -m
+
+
+
+sudo bash -c 'echo -e "\nvm.swappiness=10\n" >> /etc/sysctl.conf '
