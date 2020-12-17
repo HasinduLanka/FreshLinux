@@ -4,4 +4,5 @@ clock-show-weekday=false
 enable-hot-corners=false
 gtk-im-module='gtk-im-context-simple'
 gtk-theme='Yaru-dark'
+locate-pointer=true
 show-battery-percentage=true
