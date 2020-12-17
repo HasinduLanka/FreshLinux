@@ -11,7 +11,7 @@ sudo update-grub2
 
 # cp ./fs/wallpapers/wallpaper.png ~/Pictures/
 
-chmod +x ./powerplans/*.sh
+chmod +x ./fs/home/*.sh
 
 rsync -a ./fs/home/ ~/
 sudo rsync -a ./fs/home/Desktop/ /usr/share/applications/
