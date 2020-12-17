@@ -9,6 +9,7 @@ sudo apt -y install wmctrl xdotool libinput-tools   chrome-gnome-shell gnome-twe
 sudo cp ./fs/wallpapers/wallpaper-256.png /boot/grub/
 sudo update-grub2
 
+
 # cp ./fs/wallpapers/wallpaper.png ~/Pictures/
 
 chmod +x ./fs/home/*.sh
@@ -27,7 +28,6 @@ sudo cp ./config/logind.conf /etc/systemd/logind.conf
 
 sudo apt install tlp tlp-rdw 
 sudo cp -r ./powerplans/tlp.backup /etc/
-
 
 
 # Made using    dconf dump /org/gnome/shell/extensions/ > ./config/extension-settings.dconf 
@@ -50,6 +50,8 @@ dconf load /org/gnome/desktop/wm/preferences/ < ./config/wm.dconf
 dconf load /org/gnome/gedit/preferences/editor/ < ./config/gedit.dconf 
 
 dconf load /org/gnome/settings-daemon/plugins/power/ < ./config/power.dconf 
+
+
 
 
 
