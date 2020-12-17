@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update 
-sudo apt install --assume-yes kate vlc ffmpeg cheese gparted gnome-disk-utility snapd openjdk-15-jre stacer
+sudo apt install --assume-yes kate vlc ffmpeg cheese gparted gnome-disk-utility snapd openjdk-15-jre stacer torbrowser-launcher 
 
 
 echo SnapD is installed. But you should logout and login again to use it
@@ -26,12 +26,12 @@ sudo apt-get update; \
   sudo apt-get install -y dotnet-sdk-3.1 dotnet-sdk-5.0
   
 
-wget https://download.xnview.com/XnConvert-linux-x64.deb 
+wget https://download.xnview.com/XnConvert-linux-x64.deb -O XnConvert-linux-x64.deb  
 sudo dpkg --install XnConvert-linux-x64.deb  
 sudo apt install --assume-yes --fix-broken
 
 
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
