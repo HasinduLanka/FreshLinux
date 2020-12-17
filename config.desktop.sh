@@ -2,7 +2,14 @@
 
 sudo gpasswd -a $USER input
 
-sudo apt -y install wmctrl xdotool libinput-tools   chrome-gnome-shell gnome-tweaks gnome-shell-extension-dash-to-panel gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0   gnome-shell-extension-system-monitor
+sudo apt -y install wmctrl xdotool libinput-tools   chrome-gnome-shell gnome-tweaks gnome-shell-extension-dash-to-panel gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 gnome-shell-extension-system-monitor
+
+
+
+sudo cp ./fs/wallpapers/wallpaper-256.png /boot/grub/
+sudo update-grub2
+
+cp ./fs/wallpapers/wallpaper.png ~/Pictures/
 
 
 # Made using    dconf dump /org/gnome/shell/extensions/ > ./config/extension-settings.dconf 
