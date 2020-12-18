@@ -19,4 +19,5 @@ sudo systemctl enable resolvconf.service
 sudo systemctl start resolvconf.service
 
 git config pull.rebase true 
-echo configure git like    git config --global user.name "NAME" user.email "ME@MAIL.COM"
+echo configure git name like    git config --global user.name "NAME" 
+echo configure git email like   git config --global user.email "ME@MAIL.COM" 
