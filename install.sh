@@ -17,4 +17,6 @@ echo Press [Enter] to Logout
 echo After you log in again, run ./config.desktop.after-relogin.sh  [Without sudo]
 read line
 
-sudo logout
+# sudo logout
+
+gnome-session-quit 

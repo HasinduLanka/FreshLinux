@@ -26,7 +26,7 @@ sudo cp ./config/logind.conf /etc/systemd/logind.conf
 # cp ./powerplans/Ultra\ Power\ save\ Mode.desktop ~/Desktop/ 
 
 
-sudo apt install tlp tlp-rdw 
+sudo apt -y install tlp tlp-rdw 
 sudo cp -r ./powerplans/tlp.backup /etc/
 
 
