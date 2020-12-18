@@ -12,7 +12,7 @@ Make sure you have a stable internet connection.
 Press `CTRL+ALT+T` to open a new terminal and type this in the terminal 
 
 
-``` 
+```bash
  sudo apt update 
  sudo apt install git 
  git clone https://github.com/hasindulanka/freshlinux.git 
@@ -21,7 +21,7 @@ Press `CTRL+ALT+T` to open a new terminal and type this in the terminal
  ./install.sh 
 ``` 
  
-You'll asked for the password , enter it. 
+You'll be asked for the password , enter it. 
 
 Now go for a walk or a swim. When you come back you'll see a messege like 
 
@@ -38,7 +38,9 @@ Again, Press `CTRL+ALT+T` to open a new terminal and type this in the terminal
 
 Done ! 
 
-Your new shinny will look something like this, 
+Your new shinny desktop will look something like this
+
+![New-Shinny-Desktop](fresh-desktop.png) 
 
 
 
