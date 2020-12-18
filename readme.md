@@ -102,6 +102,7 @@ Your new shinny desktop will look something like this
     * wget
     * curl
     * ark
+    * 7zip
     * ufw
     * gufw
     * make
