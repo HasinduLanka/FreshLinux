@@ -72,6 +72,9 @@ Your new shinny desktop will look something like this
 * Install GPU drivers from `Apps` folder. Just run `sudo ./Apps/mesa-gpu-drivers.sh` 
 * Reboot to everything working (Like touchpad gestures) 
 * You should configure how many workspaces you want from `Gnome Tweaks` tool. (Installed) 
+    * Warning : When using `Gnome Tweaks` it may overwrite some settings back to defaults. Keep your eye on these tweaks 
+        * Suspend When Laptop lid is closed (Disabled) 
+        * Extensions / Desktop Icons (Enabled) 
 * Configure mount points of partitions 
 
 
