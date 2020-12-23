@@ -58,17 +58,18 @@ Your new shinny desktop will look something like this
     * **Powersave mode** - Saves power by limiting power hungry features 
     * **Ultra Powersave mode** - Maximize battery time by limiting performance. CPU will run at 400 MHz. *This makes my laptop run zoom/vlc for 12 hours* 
     These settings are also accesible as scripts in home folder 
-* Touchpad gestures 
-    * Three finger tap - Middle click
-    * Three finger pinch - Zoom in/out
-    * Three finger swipe up/down - Change Workspace up/down
-    * Four finger swipe up - Desktop window overview 
-    * Four finger swipe down - Close window (alt+F4)
 * Workspaces are isolated (Taskbar will shown only apps in the current workspace)
 * GRUB boot menu background image will be changed
 * Your lap wont sleep or turn off display when you are away
-* Power button will put computer into sleep. Closing laptop lid will do nothing 
+* Power button will put computer into sleep. Closing the laptop lid will do nothing 
 
+### Touchpad gestures 
+    * Three finger tap - Middle click
+    * Three finger pinch - Zoom in/out
+    * Three finger swipe up/down - Change Workspace up/down
+    * Three finger swipe left/right - Change Active window (alt+Tab and alt+shift_Tab)
+    * Four finger swipe up - Desktop window overview 
+    * Four finger swipe down - Close window (alt+F4)
 
 ## Things to do
 
