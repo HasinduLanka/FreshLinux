@@ -61,7 +61,9 @@ Your new shinny desktop will look something like this
 * Touchpad gestures 
     * Three finger tap - Middle click
     * Three finger pinch - Zoom in/out
-    * Four finger swipe up/down - Change Workspace up/down
+    * Three finger swipe up/down - Change Workspace up/down
+    * Four finger swipe up - Desktop window overview 
+    * Four finger swipe down - Close window (alt+F4)
 * Workspaces are isolated (Taskbar will shown only apps in the current workspace)
 * GRUB boot menu background image will be changed
 * Your lap wont sleep or turn off display when you are away
