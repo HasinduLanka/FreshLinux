@@ -6,6 +6,8 @@ Tired of configuring Gnome and apps after installing ubuntu everytime?
 This is what I do when I install minimal ubuntu on a new rig 
 
 
+## Feel free to fry up this for your taste :-) 
+
 # How to : 
 
 Make sure you have a stable internet connection. 
@@ -27,14 +29,14 @@ Now go for a walk or a swim. When you come back you'll see a messege like
 
 ```
 Press [Enter] to Logout
-After you log in again, run ./config.desktop.after-relogin.sh [Without sudo]
+After you log in again, run ./config.gnome.after-relogin.sh [Without sudo]
 ```
 
 So press Enter and log in back again 
 
 Again, Press `CTRL+ALT+T` to open a new terminal and type this in the terminal 
 
-` ./config.desktop.after-relogin.sh ` 
+` ./config.gnome.after-relogin.sh ` 
 
 Done ! 
 
@@ -70,7 +72,7 @@ Your new shinny desktop will look something like this
 
 * Increse SWAP memory to 8GB. Just run `sudo ./swap8GB.sh` 
 * Install GPU drivers from `Apps` folder. Just run `sudo ./Apps/mesa-gpu-drivers.sh` 
-* Reboot to everything working (Like touchpad gestures) 
+* Reboot to get everything fully working (Like power plans)
 * You should configure how many workspaces you want from `Gnome Tweaks` tool. (Installed) 
     * Warning : When using `Gnome Tweaks` it may overwrite some settings back to defaults. Keep your eye on these tweaks 
         * Suspend When Laptop lid is closed (Disabled) 
@@ -83,12 +85,11 @@ Your new shinny desktop will look something like this
 * Apps
     * Visual Studio Code
     * Google Chrome 
-    * zoom-client - Yeah that Zoom meeting thingy 
+    * zoom-client - (Yeah that Zoom meeting thingy) 
     * Microsoft Teams Desktop 
     * LibreOffice 
     * torbrowser 
     * XnConvert
-    * kate
     * vlc
     * cheese
     * vokoscreen-ng - Screen recorder
@@ -98,6 +99,7 @@ Your new shinny desktop will look something like this
     * nano
     * screen
     * gedit
+    * kate
     * git
     * wget
     * curl
@@ -119,10 +121,17 @@ Your new shinny desktop will look something like this
     * openjdk-15-jre
     * dotnet-sdk-3.1
     * dotnet-sdk-5.0
-    * resolvconf - This solves that DNS server not found issue on newer WIFI cards
+    * resolvconf - This solves that DNS server not found issue on newer WIFI modules 
 * Gnome Extentions 
     * gnome-shell-extension-dash-to-panel 
     * gnome-shell-extension-system-monitor 
 
 
-# Feel free to fry up this for your taste :-) 
+# How to Customise 
+
+This installs and configures everything (Excluding Apps folder)
+
+` ./install.essentials.sh ; ./install.apps.sh ; ./install.office.sh ; ./config.desktop.sh ; /config.gnome.sh ; sudo apt -y dist-upgrade  `
+
+## You can change this or edit the classified files. Just fork this template repo and start building your own 
+# Try adding some chilly and pepper if it doesn't taste well 
