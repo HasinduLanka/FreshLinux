@@ -70,6 +70,7 @@ Your new shinny desktop will look something like this
     * Three finger swipe left/right - Change Active window (alt+Tab and alt+shift_Tab)
     * Four finger swipe up - Desktop window overview 
     * Four finger swipe down - Close window (alt+F4)
+    * Four finger swipe left/right - Navigate Right/Left (alt+Left / alt+Right)
 
 ## Things to do
 
