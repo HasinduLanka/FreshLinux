@@ -1,12 +1,17 @@
 #!/bin/bash
 
-sudo apt -y install chrome-gnome-shell gnome-tweaks gnome-shell-extension-dash-to-panel  gnome-shell-extension-system-monitor 
+sudo apt -y install chrome-gnome-shell gnome-tweaks gnome-shell-extension-dash-to-panel  gnome-shell-extension-system-monitor nemo 
+
+
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+gsettings set org.gnome.desktop.background show-desktop-icons false
+gsettings set org.nemo.desktop show-desktop-icons true
+
 
 # Made using    dconf dump /org/gnome/shell/extensions/ > ./config/extension-settings.dconf 
 
 dconf load /org/gnome/shell/extensions/ < ./config/extension-settings.dconf
 
-dconf load /org/gnome/shell/extensions/ < ./config/extension-settings.dconf 
 
 dconf load /org/gnome/desktop/interface/ < ./config/desktop.interface.dconf 
 

@@ -50,14 +50,14 @@ Your new shinny desktop will look something like this
 
 ## Desktop
 * Gnome will change into system wide Yaru Dark theme 
-* Top bar and dash will be merged into one panel and moved to the bottom. This is similar to KDE / MS Windows taskbar (Much better) 
-* Bottom Panel will auto hide 
-* Bottom Panel will contain an App launcher, Icon taskbar, CPU-RAM-Network monitor, datetime, system info panel and a Show desktop button 
+* Nemo will be the default file manager and desktop icon manager
+* Top bar and dash will be merged into one panel and moved to the bottom. This **Bottom Panel** similar to KDE / MS Windows taskbar (Much better) 
+* Bottom Panel will auto hide and contain an App launcher, Icon taskbar, CPU-RAM-Network monitor, datetime, system info panel and a Show desktop button 
 * Desktop will have 3 additional icons - Power modes. These will only be effective when operating on battery. But make sure to use Performance mode when on AC 
     * **Performance mode** - Maximum performace setting like turbo boost, GPU modes even on battery 
     * **Powersave mode** - Saves power by limiting power hungry features 
-    * **Ultra Powersave mode** - Maximize battery time by limiting performance. CPU will run at 400 MHz. *This makes my laptop run zoom/vlc for 12 hours* 
-    These settings are also accesible as scripts in home folder 
+    * **Ultra Powersave mode** - Maximize battery time by limiting performance. CPU will run at 400 MHz. *This makes my laptop run zoom/vlc for 10 hours* 
+    **These settings are also accesible as scripts in home folder** 
 * Workspaces are isolated (Taskbar will shown only apps in the current workspace)
 * GRUB boot menu background image will be changed
 * Your lap wont sleep or turn off display when you are away
@@ -97,13 +97,13 @@ Your new shinny desktop will look something like this
     * vlc
     * cheese
     * vokoscreen-ng - Screen recorder
+    * Nemo
 * Utilities
     * fdisk
     * g++
     * nano
     * screen
     * gedit
-    * kate
     * git
     * wget
     * curl
