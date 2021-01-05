@@ -7,7 +7,7 @@ chmod +x ./fs/home/*.sh
 chmod +x ./Apps/*.sh 
 
 sudo apt update
-sudo apt install --assume-yes fdisk g++ nano screen gedit git wget curl ark resolvconf ufw gufw make htop build-essential software-properties-common p7zip-full 
+sudo apt install --assume-yes fdisk g++ nano screen gedit git wget curl ark resolvconf ufw gufw make htop build-essential software-properties-common p7zip-full nethogs 
 
 # sudo add-apt-repository -y ppa:deadsnakes/ppa
 # sudo apt update
