@@ -11,7 +11,7 @@ echo
 echo Press [Enter] to Install
 read line
 
-./install.essentials.sh ; ./install.apps.sh ; ./install.office.sh ; ./config.desktop.sh ; /config.gnome.sh ; sudo apt -y dist-upgrade 
+./install.essentials.sh ; ./install.apps.sh ; ./install.office.sh ; ./config.desktop.sh ; /config.gnome.sh ; sudo apt update ; sudo apt -y dist-upgrade 
 
 echo Press [Enter] to Logout
 echo After you log in again, run ./config.gnome.after-relogin.sh   [Without sudo]
