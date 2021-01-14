@@ -32,7 +32,8 @@ sudo cp -r ./powerplans/tlp.backup /etc/
 
 
 
-mkdir sand
+sudo mkdir sand
+sudo chown $USER sand
 cd sand
 git clone https://github.com/bulletmark/libinput-gestures.git
 cd libinput-gestures

@@ -14,8 +14,8 @@ sudo snap install code --classic
 
 sudo snap install vokoscreen-ng 
 
-
-mkdir sand
+sudo mkdir sand
+sudo chown $USER sand
 cd sand
 
 wget https://packages.microsoft.com/config/ubuntu/20.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
