@@ -17,11 +17,14 @@ Press `CTRL+ALT+T` to open a new terminal and type this in the terminal
 ```bash
  sudo apt update 
  sudo apt install git 
- git clone https://github.com/hasindulanka/freshlinux.git 
+ git clone https://github.com/hasindulanka/freshlinux
  cd freshlinux/ 
  chmod +x *.sh 
  ./install.sh 
+ ./config.gnome.sh 
 ``` 
+
+*** Just do not run `./config.gnome.sh` if you are not using gnome. `./install.sh` is compatible with other Desktop Environments like KDE, XFCE, cinnamon *** 
  
 You'll be asked for the password , enter it. 
 

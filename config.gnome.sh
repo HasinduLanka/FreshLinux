@@ -32,3 +32,5 @@ echo
 echo https://extensions.gnome.org/extension/120/system-monitor/  and  https://extensions.gnome.org/extension/1160/dash-to-panel/ are installed
 echo Now, Log out, Login again and Run ./config.gnome.after-relogin.sh  [Without sudo]
 echo Make sure to run this script without sudo as well 
+
+# gnome-session-quit 
