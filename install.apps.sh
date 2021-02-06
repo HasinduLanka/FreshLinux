@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update 
-sudo apt install --assume-yes vlc ffmpeg cheese gparted gnome-disk-utility snapd openjdk-15-jre stacer torbrowser-launcher vokoscreen-ng 
+sudo apt install --assume-yes vlc ffmpeg cheese gparted gnome-disk-utility snapd openjdk-15-jre stacer torbrowser-launcher vokoscreen-ng gnome-keyring 
 
 
 echo SnapD is installed. But you should logout and login again to use it
@@ -13,6 +13,8 @@ sudo mkdir sand
 sudo chown $USER sand
 # cd sand
 
-./Apps/Chrome.sh 
-./Apps/xnconvert.sh   
-./Apps/Dotnet-5.0-Ubuntu-20.10.sh
+echo 
+echo Now, you can install Apps from ./Apps/ directory
+echo
+
+sudo snap install code --classic

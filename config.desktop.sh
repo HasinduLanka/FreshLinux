@@ -2,7 +2,7 @@
 
 sudo gpasswd -a $USER input
 
-sudo apt -y install wmctrl xdotool libinput-tools  gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 
+sudo apt -y install wmctrl xdotool libinput-tools  gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 pulseaudio 
 
 
 
@@ -42,4 +42,6 @@ sudo make install #(or sudo ./libinput-gestures-setup install)
 libinput-gestures-setup autostart
 libinput-gestures-setup start
 libinput-gestures-setup restart
+
+pulseaudio -k
 
