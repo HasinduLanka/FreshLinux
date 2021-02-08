@@ -50,7 +50,7 @@ Add some Virtual Desktops to switch using the touchpad
 ### Configure KDE
 
 I love KDE, because most of it is just in the way I want.
- - Go to Settings -> Global Keyboard shortcuts and Import the file `KDE-KWIN-Keyboard-shortcuts.kksrc` for Touchpad Gestures to work
+ - Go to Settings -> Global Keyboard shortcuts and Import the file `KDE-Keyboard-shortcuts.kksrc` for Touchpad Gestures to work
  - Add some Virtual Desktops to switch using the touchpad  
 
 

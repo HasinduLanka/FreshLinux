@@ -2,7 +2,7 @@
 Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=Meta+Num+-
 Expose=Ctrl+F9
-ExposeAll=Ctrl+F10; Launch (C)
+ExposeAll=Launch (C); Ctrl+F10
 ExposeClass=Ctrl+F7
 Increase Opacity=Meta+Num++
 Invert Screen Colors=
@@ -142,3 +142,40 @@ Window to Screen 7=
 view_actual_size=Meta+0
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
+
+[org.kde.spectacle.desktop][Global Shortcuts]
+ActiveWindowScreenShot=Meta+Print
+CurrentMonitorScreenShot=Meta+Ctrl+Print
+FullScreenScreenShot=Print
+RectangularRegionScreenShot=
+_launch=Meta+Shift+Print
+
+[plasmashell][Global Shortcuts]
+activate task manager entry 1=Meta+1
+activate task manager entry 10=
+activate task manager entry 2=Meta+2
+activate task manager entry 3=Meta+3
+activate task manager entry 4=Meta+4
+activate task manager entry 5=Meta+5
+activate task manager entry 6=Meta+6
+activate task manager entry 7=Meta+7
+activate task manager entry 8=Meta+8
+activate task manager entry 9=Meta+9
+activate widget 3=Alt+F1
+activate widget 34=
+clear-history=
+clipboard_action=Ctrl+Alt+X
+cycleNextAction=
+cyclePrevAction=
+edit_clipboard=
+manage activities=Meta+Q
+next activity=Meta+Tab
+previous activity=Meta+Shift+Tab
+repeat_action=Ctrl+Alt+R
+show dashboard=Ctrl+F12
+show-barcode=
+show-on-mouse-pos=Meta+V
+stop current activity=Meta+S
+switch to next activity=
+switch to previous activity=
+toggle do not disturb=
