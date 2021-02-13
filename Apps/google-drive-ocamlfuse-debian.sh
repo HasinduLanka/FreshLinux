@@ -23,3 +23,8 @@ get_abs_filename() {
 printf "Icon=" >> ~/Desktop/GoogleDriveFuse.desktop
 get_abs_filename ~/.gdfuse/GoogleDrive.png >> ~/Desktop/GoogleDriveFuse.desktop
 
+echo "mkdir ~/GoogleDrive ; google-drive-ocamlfuse ~/GoogleDrive" > ~/google-drive-fuse-start.sh
+echo "pkill -c -f -9 google-drive-ocamlfuse ; fusermount -u ~/GoogleDrive " > ~/google-drive-fuse-stop.sh
+
+chmod +x ~/google-drive-fuse-start.sh
+chmod +x ~/google-drive-fuse-stop.sh
