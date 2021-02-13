@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install -y google-drive-ocamlfuse
 
 mkdir ~/.gdfuse/default
-
+mkdir ~/Desktop
 
 cd "$(dirname "$0")"
 
