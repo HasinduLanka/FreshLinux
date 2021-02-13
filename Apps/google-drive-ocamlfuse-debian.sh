@@ -6,7 +6,7 @@ echo 'deb http://ppa.launchpad.net/alessandro-strada/ppa/ubuntu xenial main' | s
 sudo apt update
 sudo apt install -y google-drive-ocamlfuse
 
-mkdir ~/.gdfuse/default
+mkdir -p ~/.gdfuse/default
 mkdir ~/Desktop
 
 cd "$(dirname "$0")"
