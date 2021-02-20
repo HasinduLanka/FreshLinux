@@ -9,11 +9,12 @@ wget -c https://tlauncher.org/jar -O tlauncher.zip
 7z x tlauncher.zip
 
 
-mkdir tlauncher
-cd tlauncher
-cp TLauncher* tlauncher/
+mkdir -p ~/.minecraft/
+mv TLauncher* TLauncher.jar
+cp TLauncher.jar ~/.minecraft/
+cd ~/.minecraft/
 
-echo -e "DRI_PRIME=1 java -jar TLauncher* \n" > run-tlauncher.sh 
+echo -e "DRI_PRIME=1 java -jar TLauncher.jar \n" > run-tlauncher.sh 
 
 chmod +x run-tlauncher.sh 
 ./run-tlauncher.sh 
