@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install dbus-x11 android-sdk-platform-tools-common 
+sudo apt install dbus-x11 android-tools-adb 
 sudo snap install --beta --devmode anbox
 
 echo Desktop Files are stored at 
