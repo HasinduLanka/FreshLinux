@@ -1,0 +1,54 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwgAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAACDgAAAAEAAAAAAAAD6AAAAABk
+
+[ConfigDialog]
+eDP-1 Height 1080=617
+eDP-1 Width 1920=907
+
+[DownloadDialog Settings]
+eDP-1 Height 1080=494
+eDP-1 Width 1920=700
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=
+Recent URLs[$e]=file:$HOME/
+detailViewIconSize=0
+iconViewIconSize=43
+
+[KPropertiesDialog]
+eDP-1 Height 1080=456
+eDP-1 Width 1920=410
+
+[PlasmaViews][Panel 2]
+alignment=132
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=24
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=24
+
+[PlasmaViews][Panel 26]
+alignment=132
+panelVisibility=1
+
+[PlasmaViews][Panel 26][Defaults]
+maxLength=792
+minLength=310
+thickness=58
+
+[PlasmaViews][Panel 26][Horizontal1920]
+maxLength=792
+minLength=310
+thickness=58
+
+[ScreenConnectors]
+0=eDP-1
+1=DP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
