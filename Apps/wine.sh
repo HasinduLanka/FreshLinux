@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt install wine64 wine32
+sudo apt install -y wine64 wine32
