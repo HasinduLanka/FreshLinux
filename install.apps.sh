@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update 
-sudo apt install --assume-yes vlc ffmpeg cheese gparted gnome-disk-utility snapd openjdk-15-jre stacer torbrowser-launcher vokoscreen-ng gnome-keyring 
+sudo apt install --assume-yes vlc ffmpeg cheese gparted gnome-disk-utility snapd openjdk-15-jre stacer torbrowser-launcher vokoscreen-ng gnome-keyring handbrake nemo pinta
 
 
 echo SnapD is installed. But you should logout and login again to use it
