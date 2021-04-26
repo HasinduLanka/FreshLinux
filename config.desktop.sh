@@ -2,14 +2,14 @@
 
 sudo gpasswd -a $USER input
 
-sudo apt -y install filelight brasero wmctrl xdotool libinput-tools  gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 pulseaudio scrot kde-spectacle kdialog qml-module-qt-labs-platform 
+sudo apt -y install filelight wmctrl xdotool libinput-tools  gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 pulseaudio scrot kde-spectacle kdialog qml-module-qt-labs-platform 
 
 
 
 chmod +x ./fs/home/*.sh
 
 rsync -a ./fs/home/ ~/
-sudo rsync -a ./fs/home/Desktop/ /usr/share/applications/
+rsync -a ./fs/home/Desktop/ /usr/share/applications/
 
 sudo cp ./config/logind.conf /etc/systemd/logind.conf 
 
