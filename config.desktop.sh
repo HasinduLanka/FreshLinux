@@ -6,12 +6,6 @@ sudo apt -y install filelight brasero wmctrl xdotool libinput-tools  gir1.2-gtop
 
 
 
-sudo cp ./fs/wallpapers/wallpaper-256.png /boot/grub/
-sudo update-grub2
-
-
-# cp ./fs/wallpapers/wallpaper.png ~/Pictures/
-
 chmod +x ./fs/home/*.sh
 
 rsync -a ./fs/home/ ~/
@@ -19,11 +13,6 @@ sudo rsync -a ./fs/home/Desktop/ /usr/share/applications/
 
 sudo cp ./config/logind.conf /etc/systemd/logind.conf 
 
-# cp ./powerplans/power.plan.* ~/
-
-# cp ./powerplans/Performance\ Mode.desktop ~/Desktop/ 
-# cp ./powerplans/Power\ save\ Mode.desktop ~/Desktop/ 
-# cp ./powerplans/Ultra\ Power\ save\ Mode.desktop ~/Desktop/ 
 
 
 sudo apt -y install tlp tlp-rdw 
