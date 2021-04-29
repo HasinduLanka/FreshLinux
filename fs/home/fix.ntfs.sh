@@ -4,7 +4,8 @@
 if [ -z "$1" ]
 then
     echo "Usage : ./fix.ntfs.sh sda1"
-    sudo fdisk --list
+    echo 
+    sudo df -h
     
 else
     echo Fixing /dev/$1
