@@ -11,7 +11,7 @@ free -m
 
 cd /
 
-sudo fallocate -l 8G ./swapfile 
+sudo fallocate -l 8G ./swapfile
 sudo chmod 600 ./swapfile
 sudo mkswap ./swapfile
 sudo swapon ./swapfile
@@ -19,6 +19,12 @@ sudo swapon ./swapfile
 echo After Increasing 
 free -m
 
+echo "Swappiness = "
+cat /proc/sys/vm/swappiness
+sudo bash -c 'echo -e "\nvm.swappiness=5\n" >> /etc/sysctl.conf '
+
+sudo sysctl vm.swappiness=5
 
 
-sudo bash -c 'echo -e "\nvm.swappiness=10\n" >> /etc/sysctl.conf '
+echo "Edit /etc/fstab to append this"
+echo "/swapfile swap swap defaults 0 0"
