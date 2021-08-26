@@ -20,4 +20,4 @@ libinput-gestures-setup autostart
 libinput-gestures-setup start
 libinput-gestures-setup restart
 
-echo Gestures are registered for X11. Run register.gestures.wayland.sh for wayland.
+echo Gestures are registered for wayland. Run register.gestures.x11.sh for X11.

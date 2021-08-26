@@ -9,7 +9,7 @@ sudo apt -y install filelight wmctrl xdotool libinput-tools  gir1.2-gtop-2.0 gir
 chmod +x ./fs/home/*.sh
 
 rsync -a ./fs/home/ ~/
-rsync -a ./fs/home/Desktop/ /usr/share/applications/
+sudo rsync -a ./fs/home/Desktop/ /usr/share/applications/
 
 sudo cp ./config/logind.conf /etc/systemd/logind.conf 
 
