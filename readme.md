@@ -5,9 +5,11 @@ Tired of configuring Ubuntu and apps after installing, everytime?
 This is what I do when I install minimal ubuntu on a new rig
 This script is valid for **Gnome, KDE, cinnamon, LXDE and XFCE**
 
-##### Tested working on Ubuntu 20.04 , Ubuntu 20.10 , Kubuntu 20.04 , Kubuntu 20.10 , Kubuntu 21.04 on X11 and Kubuntu 21.04 on Wayland
+** Tested working on Ubuntu 20.04 , Ubuntu 20.10 , Kubuntu 20.04 , Kubuntu 20.10 , Kubuntu 21.04 on X11 and Kubuntu 21.04 on Wayland **
 
-## Feel free to fry up this for your taste :-)
+This branch is intended for easy setup of Ubuntu linux. [Check other branch for setting up Manjaro Linux.](https://github.com/HasinduLanka/FreshLinux/tree/manjaro)  
+
+** Feel free to fry up this for your taste :-) **
 
 # How to :
 
