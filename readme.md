@@ -1,8 +1,21 @@
 # Fresh Manjaro Linux
 
-This branch is intended for easy setup of manjaro linux. Check other branch for setting up and installing apps on Ubuntu Linux. 
+This branch is intended for easy setup of manjaro linux. [Check other branch for setting up and installing apps on Ubuntu Linux.](https://github.com/HasinduLanka/FreshLinux/tree/ubuntu)  
 
-All the app install scripts from ubuntu repo branch is not needed for Manjaro because we can install all of them from `pamac` GUI preinstalled on Manjaro (Add/Remove software in the app launcher). Make sure to enable support for AUR, Snaps and Flatpaks from the `preferences` menu of pamac GUI.
+## Cloning : 
+
+```bash
+    sudo pacman -S git
+    git clone --single-branch --branch=manjaro --depth=1 https://github.com/HasinduLanka/FreshLinux
+```
+
+All the app install scripts from ubuntu repo branch is not needed for Manjaro because we can install all of them from `pamac` GUI preinstalled on Manjaro (Add/Remove software in the app launcher). 
+
+Make sure to enable support for AUR, Snaps and Flatpaks from the `preferences` menu of pamac GUI.
+
+
+Update the system before doing anything else : `sudo pacman -Suy`
+
 
 **Run these scripts as your current user.** Not with `sudo`. You will be prompted when root privileges are required.
 
