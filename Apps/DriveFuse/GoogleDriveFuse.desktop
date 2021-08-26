@@ -1,5 +1,0 @@
-[Desktop Entry]
-Exec=mkdir ~/GoogleDrive ; google-drive-ocamlfuse ~/GoogleDrive && nemo ~/GoogleDrive && pkill -c -f -9 google-drive-ocamlfuse ; fusermount -u ~/GoogleDrive 
-Name=Google Drive Fuse
-StartupNotify=true
-Type=Application
