@@ -5,7 +5,7 @@
 echo "Installing Gestures and Power managment"
 
 sudo gpasswd -a $USER input
-sudo pacman -S --noconfirm libinput-gestures tlp
+sudo pacman -S --noconfirm libinput-gestures tlp wmctrl
 libinput-gestures-setup autostart 
 
 echo "Installing files"
